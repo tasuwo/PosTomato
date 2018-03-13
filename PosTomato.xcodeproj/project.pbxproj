@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8028DE205822D8005838AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8028DD205822D8005838AA /* AppDelegate.swift */; };
+		2C8028E0205822D8005838AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8028DF205822D8005838AA /* ViewController.swift */; };
+		2C8028E2205822D8005838AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8028E1205822D8005838AA /* Assets.xcassets */; };
+		2C8028F1205822D8005838AA /* PosTomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8028F0205822D8005838AA /* PosTomatoTests.swift */; };
+		2C8028FC205822D8005838AA /* PosTomatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8028FB205822D8005838AA /* PosTomatoUITests.swift */; };
+		2C80290F205823F6005838AA /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80290E205823F6005838AA /* WindowController.swift */; };
+		2C802911205826B0005838AA /* WindowSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C802910205826B0005838AA /* WindowSizeCalculator.swift */; };
+		2C80291320582A0E005838AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80291220582A0E005838AA /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C8028ED205822D8005838AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8028D2205822D8005838AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8028D9205822D8005838AA;
+			remoteInfo = PosTomato;
+		};
+		2C8028F8205822D8005838AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8028D2205822D8005838AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8028D9205822D8005838AA;
+			remoteInfo = PosTomato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C8028DA205822D8005838AA /* PosTomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosTomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8028DD205822D8005838AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C8028DF205822D8005838AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C8028E1205822D8005838AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C8028E6205822D8005838AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8028E7205822D8005838AA /* PosTomato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PosTomato.entitlements; sourceTree = "<group>"; };
+		2C8028EC205822D8005838AA /* PosTomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosTomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8028F0205822D8005838AA /* PosTomatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosTomatoTests.swift; sourceTree = "<group>"; };
+		2C8028F2205822D8005838AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8028F7205822D8005838AA /* PosTomatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosTomatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8028FB205822D8005838AA /* PosTomatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosTomatoUITests.swift; sourceTree = "<group>"; };
+		2C8028FD205822D8005838AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C80290E205823F6005838AA /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		2C802910205826B0005838AA /* WindowSizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSizeCalculator.swift; sourceTree = "<group>"; };
+		2C80291220582A0E005838AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8028D7205822D8005838AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8028E9205822D8005838AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8028F4205822D8005838AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8028D1205822D8005838AA = {
+			isa = PBXGroup;
+			children = (
+				2C8028DC205822D8005838AA /* PosTomato */,
+				2C8028EF205822D8005838AA /* PosTomatoTests */,
+				2C8028FA205822D8005838AA /* PosTomatoUITests */,
+				2C8028DB205822D8005838AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8028DB205822D8005838AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8028DA205822D8005838AA /* PosTomato.app */,
+				2C8028EC205822D8005838AA /* PosTomatoTests.xctest */,
+				2C8028F7205822D8005838AA /* PosTomatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8028DC205822D8005838AA /* PosTomato */ = {
+			isa = PBXGroup;
+			children = (
+				2C8028E7205822D8005838AA /* PosTomato.entitlements */,
+				2C80290A20582309005838AA /* src */,
+				2C80290920582301005838AA /* resources */,
+			);
+			path = PosTomato;
+			sourceTree = "<group>";
+		};
+		2C8028EF205822D8005838AA /* PosTomatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8028F0205822D8005838AA /* PosTomatoTests.swift */,
+				2C8028F2205822D8005838AA /* Info.plist */,
+			);
+			path = PosTomatoTests;
+			sourceTree = "<group>";
+		};
+		2C8028FA205822D8005838AA /* PosTomatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8028FB205822D8005838AA /* PosTomatoUITests.swift */,
+				2C8028FD205822D8005838AA /* Info.plist */,
+			);
+			path = PosTomatoUITests;
+			sourceTree = "<group>";
+		};
+		2C80290920582301005838AA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C8028E1205822D8005838AA /* Assets.xcassets */,
+				2C8028E6205822D8005838AA /* Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2C80290A20582309005838AA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2C80290D205823A5005838AA /* model */,
+				2C80290C2058239F005838AA /* view */,
+				2C80290B20582395005838AA /* controller */,
+				2C8028DD205822D8005838AA /* AppDelegate.swift */,
+				2C80291220582A0E005838AA /* main.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2C80290B20582395005838AA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C80290E205823F6005838AA /* WindowController.swift */,
+				2C8028DF205822D8005838AA /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2C80290C2058239F005838AA /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2C80290D205823A5005838AA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2C802910205826B0005838AA /* WindowSizeCalculator.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C8028D9205822D8005838AA /* PosTomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C802900205822D8005838AA /* Build configuration list for PBXNativeTarget "PosTomato" */;
+			buildPhases = (
+				2C8028D6205822D8005838AA /* Sources */,
+				2C8028D7205822D8005838AA /* Frameworks */,
+				2C8028D8205822D8005838AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PosTomato;
+			productName = PosTomato;
+			productReference = 2C8028DA205822D8005838AA /* PosTomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8028EB205822D8005838AA /* PosTomatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C802903205822D8005838AA /* Build configuration list for PBXNativeTarget "PosTomatoTests" */;
+			buildPhases = (
+				2C8028E8205822D8005838AA /* Sources */,
+				2C8028E9205822D8005838AA /* Frameworks */,
+				2C8028EA205822D8005838AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8028EE205822D8005838AA /* PBXTargetDependency */,
+			);
+			name = PosTomatoTests;
+			productName = PosTomatoTests;
+			productReference = 2C8028EC205822D8005838AA /* PosTomatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C8028F6205822D8005838AA /* PosTomatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C802906205822D8005838AA /* Build configuration list for PBXNativeTarget "PosTomatoUITests" */;
+			buildPhases = (
+				2C8028F3205822D8005838AA /* Sources */,
+				2C8028F4205822D8005838AA /* Frameworks */,
+				2C8028F5205822D8005838AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8028F9205822D8005838AA /* PBXTargetDependency */,
+			);
+			name = PosTomatoUITests;
+			productName = PosTomatoUITests;
+			productReference = 2C8028F7205822D8005838AA /* PosTomatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8028D2205822D8005838AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tasuku Tozawa";
+				TargetAttributes = {
+					2C8028D9205822D8005838AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2C8028EB205822D8005838AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C8028D9205822D8005838AA;
+					};
+					2C8028F6205822D8005838AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C8028D9205822D8005838AA;
+					};
+				};
+			};
+			buildConfigurationList = 2C8028D5205822D8005838AA /* Build configuration list for PBXProject "PosTomato" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C8028D1205822D8005838AA;
+			productRefGroup = 2C8028DB205822D8005838AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8028D9205822D8005838AA /* PosTomato */,
+				2C8028EB205822D8005838AA /* PosTomatoTests */,
+				2C8028F6205822D8005838AA /* PosTomatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8028D8205822D8005838AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8028E2205822D8005838AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8028EA205822D8005838AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8028F5205822D8005838AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8028D6205822D8005838AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8028E0205822D8005838AA /* ViewController.swift in Sources */,
+				2C80291320582A0E005838AA /* main.swift in Sources */,
+				2C80290F205823F6005838AA /* WindowController.swift in Sources */,
+				2C802911205826B0005838AA /* WindowSizeCalculator.swift in Sources */,
+				2C8028DE205822D8005838AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8028E8205822D8005838AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8028F1205822D8005838AA /* PosTomatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8028F3205822D8005838AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8028FC205822D8005838AA /* PosTomatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8028EE205822D8005838AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8028D9205822D8005838AA /* PosTomato */;
+			targetProxy = 2C8028ED205822D8005838AA /* PBXContainerItemProxy */;
+		};
+		2C8028F9205822D8005838AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8028D9205822D8005838AA /* PosTomato */;
+			targetProxy = 2C8028F8205822D8005838AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C8028FE205822D8005838AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C8028FF205822D8005838AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2C802901205822D8005838AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PosTomato/PosTomato.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RY2377PP7S;
+				INFOPLIST_FILE = "$(SRCROOT)/PosTomato/resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2C802902205822D8005838AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PosTomato/PosTomato.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RY2377PP7S;
+				INFOPLIST_FILE = "$(SRCROOT)/PosTomato/resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2C802904205822D8005838AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RY2377PP7S;
+				INFOPLIST_FILE = PosTomatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PosTomato.app/Contents/MacOS/PosTomato";
+			};
+			name = Debug;
+		};
+		2C802905205822D8005838AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RY2377PP7S;
+				INFOPLIST_FILE = PosTomatoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PosTomato.app/Contents/MacOS/PosTomato";
+			};
+			name = Release;
+		};
+		2C802907205822D8005838AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RY2377PP7S;
+				INFOPLIST_FILE = PosTomatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PosTomato;
+			};
+			name = Debug;
+		};
+		2C802908205822D8005838AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RY2377PP7S;
+				INFOPLIST_FILE = PosTomatoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PosTomato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8028D5205822D8005838AA /* Build configuration list for PBXProject "PosTomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8028FE205822D8005838AA /* Debug */,
+				2C8028FF205822D8005838AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C802900205822D8005838AA /* Build configuration list for PBXNativeTarget "PosTomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C802901205822D8005838AA /* Debug */,
+				2C802902205822D8005838AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C802903205822D8005838AA /* Build configuration list for PBXNativeTarget "PosTomatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C802904205822D8005838AA /* Debug */,
+				2C802905205822D8005838AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C802906205822D8005838AA /* Build configuration list for PBXNativeTarget "PosTomatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C802907205822D8005838AA /* Debug */,
+				2C802908205822D8005838AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8028D2205822D8005838AA /* Project object */;
+}
