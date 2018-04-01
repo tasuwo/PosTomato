@@ -15,6 +15,7 @@
 		2C80290F205823F6005838AA /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80290E205823F6005838AA /* WindowController.swift */; };
 		2C802911205826B0005838AA /* WindowSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C802910205826B0005838AA /* WindowSizeCalculator.swift */; };
 		2C80291320582A0E005838AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C80291220582A0E005838AA /* main.swift */; };
+		2C80291820596262005838AA /* DIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C80291720596262005838AA /* DIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		2C80290E205823F6005838AA /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		2C802910205826B0005838AA /* WindowSizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSizeCalculator.swift; sourceTree = "<group>"; };
 		2C80291220582A0E005838AA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2C80291720596262005838AA /* DIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DIKit.framework; path = Carthage/Build/Mac/DIKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C80291820596262005838AA /* DIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 				2C8028EF205822D8005838AA /* PosTomatoTests */,
 				2C8028FA205822D8005838AA /* PosTomatoUITests */,
 				2C8028DB205822D8005838AA /* Products */,
+				2C80291620596261005838AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +174,14 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		2C80291620596261005838AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C80291720596262005838AA /* DIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +192,7 @@
 				2C8028D6205822D8005838AA /* Sources */,
 				2C8028D7205822D8005838AA /* Frameworks */,
 				2C8028D8205822D8005838AA /* Resources */,
+				2C80291920596276005838AA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -296,6 +309,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C80291920596276005838AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/DIKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C8028D6205822D8005838AA /* Sources */ = {
@@ -457,6 +487,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RY2377PP7S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PosTomato/resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomato;
@@ -475,6 +509,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = RY2377PP7S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/PosTomato/resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tasuwo.PosTomato;
